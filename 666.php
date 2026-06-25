@@ -3,7 +3,9 @@
 
 echo "666 Encryption - Created by chris clark. <br><br>";
 
-
+if (isset($_POST['action'])) {
+    if ($_POST['action'] == 'Encrypt') { 
+        
 
 // Generates a secure random integer between 10 and 100 inclusive
 $matrix1r1 = random_int(100000, 999999); 
@@ -71,11 +73,9 @@ $key18 = random_int(10, 99);
 $counter = "0";
 
 
-////////////////////////////////////////////////////////////////////
 
-if (isset($_POST['action'])) {
-    if ($_POST['action'] == 'Encrypt') { 
-        
+
+
         
         
     }

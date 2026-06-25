@@ -71,6 +71,24 @@ $key18 = random_int(10, 99);
 $counter = "0";
 
 
+////////////////////////////////////////////////////////////////////
+
+if (isset($_POST['action'])) {
+    if ($_POST['action'] == 'Encrypt') { 
+        
+        
+        
+    }
+    elseif ($_POST['action'] == 'Decrypt') { 
+        
+        
+        
+        
+        
+    }
+}
+
+
 ?>
 
 <br>
@@ -101,6 +119,6 @@ $counter = "0";
         <textarea id="comments" name="comments" rows="4" cols="50" placeholder="Ciphertext Data:"></textarea>
     <br><br>
 <button type="submit" name="action" value="Encrypt">Encrypt</button>
-<button type="submit" name="action" value="Encrypt">Decrypt</button>
+<button type="submit" name="action" value="Decrypt">Decrypt</button>
 
 </form>
